@@ -1,0 +1,16 @@
+.singleImage{
+    height: 25rem;
+    width: 48rem;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.overview{
+    border-top: 2px  solid gray;
+}
+
+.footer{
+    border-top: 2px dotted gray;
+    display: flex;
+    justify-content: space-between;
+}

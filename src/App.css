@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -34,5 +35,44 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+.footer1{
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.col-sm-10{
+  border-right: 2px solid gray;
+}
+
+@media  screen and (max-width : 768px) {
+  .col-sm-10{
+    border:none
+  }
+ .footer1{
+  flex-direction: row;
+  margin-top: -50px;
+  gap: 20px;
+  
+ }
+ .form-control{
+   width: 500px;
+ }
+ .footer1 h5{
+   font-size: 10px;
+   padding: 0 15px;
+   align-items : center;
+ }
+  .row{
+    margin: 50px;
+  }
+  .col-sm-2{
+    margin-left: -260px;
+
   }
 }
